@@ -11,7 +11,7 @@ function main3(){
                         <img src={dicky} alt="" />
                     </div>
                     <div className="nama-co">
-                        <h2>Dicky Julia Candra</h2>
+                        <h3>Dicky Julia Candra</h3>
                         <p>Putra dari <br />
                         Bpk. Wagiman & Ibu Sunartik</p>
                         <p>Banyuwangi, Wongsorjo, Dsn. pancoran 07/02</p>
@@ -22,7 +22,7 @@ function main3(){
                 </div>
                 <div className="cewek">
                     <div className="nama-ce">
-                        <h2>Rara Ayu Siti Mutiah</h2>
+                        <h3>Rara Ayu Siti Mutiah</h3>
                         <p>Putri dari <br />
                         Bpk. Sugino & Almh. Ibu Legiyem</p>
                         <p>Dsn. Blokagung 02/05 Desa Karangdoro Kec. Tegalsari</p>
