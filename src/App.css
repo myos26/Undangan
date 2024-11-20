@@ -282,6 +282,7 @@ button:hover{
     height: 20rem;
     position: relative;
     bottom: 0;
+    background-color: transparent;
 }
 
 .ft-prewed img{
