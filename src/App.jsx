@@ -11,9 +11,11 @@ function App() {
   const [isActive, setIsActive] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [fadeOut, setFadeOut] = useState(false); // Untuk kontrol fade-out spinner
+  
 
   const toggleClass = () => {
     setIsActive(prevState => !prevState);
+    
   };
 
   useEffect(() => {

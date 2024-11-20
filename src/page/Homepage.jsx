@@ -3,6 +3,8 @@ import openMail from "../assets/open-mail.png";
 import gambar1 from "../assets/4.png"
 
 function Homepage({ toggleClass }) {
+
+  
   return (
     <>
       <div id="latarbelakang">
