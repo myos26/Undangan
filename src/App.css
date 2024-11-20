@@ -202,7 +202,7 @@ button:hover{
 
 .ft-co{
     overflow-y: hidden;
-    width: 30%;
+    width: 25%;
     height: auto;
 }
 
@@ -215,6 +215,7 @@ button:hover{
 .nama-co{
     overflow-y: hidden;
     height: 10rem;
+    width: 75%;
     padding: 1rem;
     box-sizing: border-box;
     color: #ebc660;
