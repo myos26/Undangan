@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
-import { motion } from "framer-motion";
 
 function main4() {
-  const eventTime = new Date('December 14, 2024').getTime();
+  const eventTime = new Date('November 25, 2024').getTime();
 
   const [days, setDays] = useState(0);
   const [hours, setHours] = useState(0);
@@ -27,16 +26,25 @@ function main4() {
     return () => clearInterval(timer);
   }, [eventTime]);
 
+    // Lokasi yang akan dibuka di Google Maps (gunakan koordinat atau alamat)
+    const location = "https://www.google.com/maps?q=-8.44536018371582,114.104682922363";  // Contoh: Koordinat San Francisco
+
+    const openInMaps = () => {
+      // Membuka Google Maps di aplikasi (Android/iOS) atau browser
+      window.open(location, "_blank");
+    };
+
   return (
     <div className="main-4">
-      <motion.div
-        initial={{ y: -100, opacity: 0 }}
-        whileInView={{
-          y: 0,
-          opacity: 1,
-          transition: { delay: 0.3 }
-        }}
-      >
+        <div className="detail-undangan">
+            <h2>AKAD NIKAH</h2>
+            <p>Senin, 25 November 2024</p>
+            <p>09.00 WIB</p>
+            <p>Dsn. Blokagung Rt 02/Rw 05<br />Desa Karangdoro Kec. Tegalsari</p>
+        </div>
+        <div className="lokasi">
+            <button onClick={openInMaps}>View Maps</button>
+        </div>
         <div className="timer">
             <h2>Beberapa Langkah Menuju Selamanya</h2>
           <div className="cuntdown">
@@ -58,7 +66,6 @@ function main4() {
             </div>
           </div>
         </div>
-      </motion.div>
     </div>
   );
 }

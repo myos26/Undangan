@@ -5,6 +5,7 @@ import Main1 from './page/main1';
 import Main2 from './page/main2';
 import Main3 from './page/main3';
 import Main4 from './page/main4';
+import Footer from './page/footer';
 
 function App() {
   const [isActive, setIsActive] = useState(false);
@@ -24,7 +25,7 @@ function App() {
       setTimeout(() => {
         setIsLoading(false);
       }, 1000); // Waktu fade-out (500ms) sebelum mengubah loading state
-    }, 4000); // Simulasi loading selama 3 detik
+    }, 3000); // Simulasi loading selama 3 detik
   }, []);
 
   return (
@@ -44,6 +45,10 @@ function App() {
             <Main2 />
             <Main3 />
             <Main4 />
+          </div>
+
+          <div className="footer">
+            <Footer />
           </div>
         </div>
       )}

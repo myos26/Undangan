@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -76,15 +78,24 @@
     display: block;
     text-align: center;
     padding-top: 3rem;
-    color: #ffd700;
+    color: #fff;
 }
 
 .title p:nth-child(1){
     font-size: 14pt;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 .title p:nth-child(2){
     font-size: 32pt;
+    font-weight: 400;
     font-weight: bold;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .invitation-b{
@@ -102,7 +113,7 @@
 button{
     display: flex;
     background-color: #ffffff;
-    width: 50%;
+    width: 45%;
     height: 2.5rem;
     border: none;
     border-radius: 25px;
@@ -120,6 +131,10 @@ button img{
 
 button p{
     font-size: 11pt;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 button:hover{
@@ -153,11 +168,19 @@ button:hover{
 
 .title2 p:nth-child(1){
     font-size: 14pt;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 .title2 p:nth-child(2){
     margin-top: 2%;
     font-size: 32pt;
     font-weight: bold;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .main-1 img{
@@ -199,7 +222,7 @@ button:hover{
 }
 
 .ayat{
-    text-align: right;
+    text-align: center;
     margin: 2rem 2rem 1rem 2rem;
     color: white;
     font-size: 14pt;
@@ -258,13 +281,17 @@ button:hover{
 }
 
 .nama-co p{
+    color: #c4bea8;
     overflow-y: hidden;
     margin-top: 0.7rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .sekat{
     overflow-y: hidden;
-    color: #ebc660;
+    color: #cbbc86;
     height: 3rem;
     text-align: center;
     font-size: 18pt;
@@ -311,6 +338,17 @@ button:hover{
 .nama-ce p{
     overflow-y: hidden;
     margin-top: 0.7rem;
+    color: #c4bea8;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nama-ce h2,
+.nama-co h2{
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .ft-prewed{
@@ -330,11 +368,11 @@ button:hover{
 .main-4{
     width: 100vw;
     overflow-y: hidden;
-    height:100vh;
+    height:auto;
+    margin-bottom: 2rem;
 }
 
 .timer{
-    border: 1px double red;
     width: 100vw;
     /* height: 10rem; */
     padding: 4rem 2rem 1rem 2rem;
@@ -360,7 +398,7 @@ button:hover{
     align-items: center;      /* Posisikan konten di tengah secara horizontal */
     width: 70px;
     height: 70px;
-    background: #ebc660;
+    background: #c4bea8;
     border: 3px double white;
     border-radius: 50%;
     font-size: 18pt;
@@ -378,10 +416,89 @@ button:hover{
     font-size: 12pt;
 }
 
+.detail-undangan{
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1rem 3rem;
+}
 
+.detail-undangan h2{
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #cbbc86;
+}
 
+.detail-undangan p{
+    margin-top: 5px;
+    font-size: 12pt;
+}
 
+.lokasi{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+}
 
+.lokasi button{
+    background-color: #cbbc86;
+    font-size: 14pt;
+    font-weight: bold;
+    color: white;
+    border: 3px double white;
+    cursor: pointer;
+}
+
+.lokasi button:hover{
+    background-color: #ae9c59;
+}
+
+.footer{
+    /* display: flex; */
+    width: 100vw;
+    height: 5rem;
+    background-color: #cbbc86;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.footer h4{
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+}
+
+.footer div{
+    width: 100vw;
+    height: 1rem;
+    border-top: 2px dashed #fff;
+}
+
+.footer h2{
+    font-family: "Playfair Display", serif;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.footer h2 span{
+    color: black;
+}
+
+.footer div p{
+    margin-top: 4px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 8pt;
+    font-weight: 200;
+    text-align: right;
+    margin-right: 1rem;
+    color: #fff;
+    font-style: italic;
+}
 
 
 

@@ -1,6 +1,6 @@
 import React from "react";
 import openMail from "../assets/open-mail.png";
-import gambar1 from "../assets/1.png"
+import gambar1 from "../assets/4.png"
 
 function Homepage({ toggleClass }) {
   return (
@@ -17,7 +17,7 @@ function Homepage({ toggleClass }) {
       <div className="invitation-b">
         <button onClick={toggleClass}>
           <img src={openMail} alt="Open Invitation" />
-          <p>Open Invitation</p>
+          <p>Buka</p>
         </button>
       </div>
     </>
