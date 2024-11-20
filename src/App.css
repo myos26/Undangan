@@ -268,7 +268,7 @@ button:hover{
     text-align: right;
     /* margin-left: -3rem; */
     margin-right: 0.5rem;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     color: #ebc660;
 }
 
