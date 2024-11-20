@@ -11,11 +11,16 @@ function App() {
   const [isActive, setIsActive] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [fadeOut, setFadeOut] = useState(false); // Untuk kontrol fade-out spinner
-  
+  const [audio] = useState(new Audio('/path/to/your/audio-file.mp3')); // Ganti dengan path audio yang sesuai
 
   const toggleClass = () => {
     setIsActive(prevState => !prevState);
-    
+    // Memulai audio ketika homepage diklik
+    if (audio.paused) {
+      audio.play(); // Memainkan audio
+    } else {
+      audio.pause(); // Jika sudah diputar, berhenti
+    }
   };
 
   useEffect(() => {
@@ -42,12 +47,15 @@ function App() {
             <Homepage toggleClass={toggleClass} />
           </div>
 
-          <div className="main">
-            <Main1 />
-            <Main2 />
-            <Main3 />
-            <Main4 />
-          </div>
+          {/* Tampilan halaman Main hanya ketika homepage diklik */}
+          {isActive && (
+            <div className="main">
+              <Main1 />
+              <Main2 />
+              <Main3 />
+              <Main4 />
+            </div>
+          )}
 
           <div className="footer">
             <Footer />
