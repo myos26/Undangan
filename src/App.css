@@ -187,7 +187,7 @@ button:hover{
 .main-3{
     width: 100vw;
     overflow-y: hidden;
-    height:93vh;
+    height:100vh;
 }
 
 .cowok{
@@ -278,9 +278,10 @@ button:hover{
 }
 
 .ft-prewed{
-    margin-top: 1rem;
     width: 100vw;
     height: 20rem;
+    position: relative;
+    bottom: 0;
 }
 
 .ft-prewed img{
