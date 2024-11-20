@@ -187,7 +187,7 @@ button:hover{
 .main-3{
     width: 100vw;
     overflow-y: hidden;
-    height:100vh;
+    height: auto;
 }
 
 .cowok{
@@ -202,8 +202,8 @@ button:hover{
 
 .ft-co{
     overflow-y: hidden;
-    width: 27%;
-    height: 100px;
+    width: 30%;
+    height: auto;
 }
 
 .cowok img{
@@ -233,6 +233,7 @@ button:hover{
     font-size: 18pt;
     box-sizing: border-box;
     object-fit: cover;
+    margin-top: -1rem;
 }
 
 .cewek{
@@ -246,8 +247,8 @@ button:hover{
 
 .ft-ce{
     overflow-y: hidden;
-    width: 27%;
-    height: 100px;
+    width: 30%;
+    height: auto;
     margin-right: 1rem;
     box-sizing: border-box;
 }
@@ -261,7 +262,7 @@ button:hover{
 .nama-ce{
     overflow-y: hidden;
     height: 10rem;
-    width: 73%;
+    width: 70%;
     padding: 1rem 0 1rem 1.5rem;
     text-align: right;
     /* margin-left: -3rem; */
@@ -279,7 +280,7 @@ button:hover{
     overflow-y: hidden;
     width: 100vw;
     height: 20rem;
-    background-color: transparent;
+    margin-top: -1rem;
 }
 
 .ft-prewed img{
