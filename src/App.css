@@ -227,6 +227,7 @@ button:hover{
 }
 
 .sekat{
+    overflow-y: hidden;
     color: #ebc660;
     height: 3rem;
     text-align: center;
@@ -240,6 +241,7 @@ button:hover{
     display: flex;
     width: 100vw;
     height: 10rem;
+    margin-bottom: 1rem;
     align-items: center;
     justify-content: right;
 }
