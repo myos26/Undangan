@@ -238,6 +238,7 @@ button:hover{
 }
 
 .cewek{
+    border: 2px double blue;
     overflow-y: hidden;
     display: flex;
     width: 100vw;
