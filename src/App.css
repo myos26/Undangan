@@ -292,6 +292,12 @@ button:hover{
     object-fit: cover;
 }
 
+.main-4{
+    width: 100vw;
+    overflow-y: hidden;
+    height:100vh;
+}
+
 .active{
     position: absolute;
     opacity: 0;
