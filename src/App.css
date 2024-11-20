@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.homepage{
+    /* background-color: rgb(255, 209, 109); */
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
+    overflow: hidden;
+    transition: opacity 1.5s ease, background-color 1.5s ease, z-index 1.5s ease 1.5s;
+}
+
+#latarbelakang{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+#latarbelakang img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.heading{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 35%;
+    /* background-color: blueviolet; */
+    justify-content: center;
+    z-index: 101;
+}
+
+.title{
+    display: block;
+    text-align: center;
+    padding-top: 3rem;
+    color: #ffd700;
+}
+
+.title p:nth-child(1){
+    font-size: 14pt;
+}
+.title p:nth-child(2){
+    font-size: 32pt;
+    font-weight: bold;
+}
+
+.invitation-b{
+    position: absolute;
+    display: flex;
+    top: 75%;
+    width: 100vw;
+    height: 50px;
+    /* background-color: rgb(126, 195, 255); */
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+button{
+    display: flex;
+    background-color: #ffffff;
+    width: 50%;
+    height: 2.5rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    transition: 0.3s;
+}
+
+button img{
+    width: 20px;
+    height: 20px;
+}
+
+button p{
+    font-size: 11pt;
+}
+
+button:hover{
+    transition: 0.3s;
+    background-color: #dfdfdf;
+}
+
+.main{
+    position: relative;
+    z-index: 10;
+    margin: 0;
+    padding: 0;
+}
+
+.main-1{
+    display: flex;
+    width: 100vw;
+    height: 110vh;
+    /* position: relative; */
+    justify-content: center;
+}
+
+.title2{
+    position: absolute;
+    /* z-index: 11; */
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    top: 5rem;
+}
+
+.title2 p:nth-child(1){
+    font-size: 14pt;
+}
+.title2 p:nth-child(2){
+    margin-top: 2%;
+    font-size: 32pt;
+    font-weight: bold;
+}
+
+.main-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-2{
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+    overflow-y: hidden;
+    top: -2.2rem;
+}
+
+.main-2 img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+.konten2{
+    /* border: 1px solid red; */
+    /* background-color: #ffd700; */
+    width: 100vw;
+    height: 50vh;
+    padding-top: 4rem;
+    position: relative;
+    text-align: center;
+    z-index: 12;
+    top: -23rem;
+}
+
+.konten2 img{
+    width: 16%;
+    height: 13%;
+    /* object-fit: cover; */
+}
+
+.ayat{
+    text-align: right;
+    margin: 2rem 2rem 1rem 2rem;
+    color: white;
+    font-size: 14pt;
+}
+
+.arti{
+    text-align: left;
+    font-style: italic;
+    font-size: 9pt;
+    margin: 0 2rem;
+    color: white;
+}
+
+.surah{
+    text-align: center;
+    font-size: 9pt;
+    color: white;
+    margin-top: 1.5rem;
+}
+
+.main-3{
+    width: 100vw;
+    height:93vh;
+}
+
+.cowok{
+    display: flex;
+    width: 100vw;
+    height: 10rem;
+    align-items: center;
+    padding: 0 1rem;
+    /* justify-content: center; */
+}
+
+.ft-co{
+    width: 27%;
+    height: 100px;
+}
+
+.cowok img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nama-co{
+    height: 10rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    color: #ebc660;
+}
+
+.nama-co p{
+    margin-top: 0.7rem;
+}
+
+.sekat{
+    color: #ebc660;
+    height: 3rem;
+    text-align: center;
+    font-size: 18pt;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+.cewek{
+    display: flex;
+    width: 100vw;
+    height: 10rem;
+    align-items: center;
+    justify-content: right;
+}
+
+.ft-ce{
+    width: 27%;
+    height: 100px;
+    margin-right: 1rem;
+    box-sizing: border-box;
+}
+
+.cewek img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nama-ce{
+    overflow-y: hidden;
+    height: 10rem;
+    width: 73%;
+    padding: 1rem 0 1rem 1.5rem;
+    text-align: right;
+    /* margin-left: -3rem; */
+    margin-right: 0.5rem;
+    box-sizing: border-box;
+    color: #ebc660;
+}
+
+.nama-ce p{
+    margin-top: 0.7rem;
+}
+
+.ft-prewed{
+    width: 100vw;
+    height: 20rem;
+}
+
+.ft-prewed img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.active{
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    background-color: #000;
+}
