@@ -282,6 +282,7 @@ button:hover{
     width: 100vw;
     height: 20rem;
     margin-top: 5rem;
+    border: 1px solid red;
     background-color: transparent;
 }
 
